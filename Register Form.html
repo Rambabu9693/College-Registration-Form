@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="regi.css">
+</head>
+<body>
+    <div id="m">
+        <h1 id="hr">Hasanpur College, Hasanpur Road</h1>
+    </div>
+    <div id="main">
+        <form action="/action.php">
+            <div id="container1">
+                <div id="head">
+                    <h1>College Registration Form</h1>
+                    <p id="para">Fill out the form carefully for registration</p>
+                </div>
+            </div>
+            <div id="container2">
+                <h3>Student Name</h3>
+                <input type="text" placeholder="First Name" class="name-input" required>
+                <input type="text" placeholder="Middle Name" class="name-input">
+                <input type="text" placeholder="Last Name" class="name-input" required>
+                <h3>Father's Name</h3>
+                <input type="text" placeholder="First Name" class="name-input" required>
+                <input type="text" placeholder="Middle Name" class="name-input">
+                <input type="text" placeholder="Last Name" class="name-input" required>
+                <h3>Mother's Name</h3>
+                <input type="text" placeholder="First Name" class="name-input" required>
+                <input type="text" placeholder="Middle Name" class="name-input">
+                <input type="text" placeholder="Last Name" class="name-input" required>
+            </div>
+            <div id="container3">
+                <div class="form-group">
+                    <h3>Birth Date</h3>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <h3>Gender</h3>
+                    <select name="Gender" id="Gender" required>
+                        <option value="">Please Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div id="container4">
+                <div class="address-group">
+                    <h3>Address</h3>
+                    <input type="text" placeholder="Village" class="address-input" required>
+                    <input type="text" placeholder="Post-Office" class="address-input" required>
+                    <input type="text" placeholder="Police Station" class="address-input" required>
+                    <input type="text" placeholder="Subdivision Name" class="address-input" required>
+                    <input type="text" placeholder="Nationality" class="address-input" required>
+                    <input type="number" placeholder="Pin-code" class="address-input" required>
+                </div>
+                <div class="district-group">
+                    <h3>District</h3>
+                    <select name="District" id="district" required>
+                        <option value="">Select District</option>
+                        <option value="Araria">Araria</option>
+                        <option value="Arwal">Arwal</option>
+                        <option value="Aurangabad">Aurangabad</option>
+                        <option value="Banka">Banka</option>
+                        <option value="Begusarai">Begusarai</option>
+                        <option value="Bhagalpur">Bhagalpur</option>
+                        <option value="Bhojpur">Bhojpur</option>
+                        <option value="Buxar">Buxar</option>
+                        <option value="Darbhanga">Darbhanga</option>
+                        <option value="East Champaran">East Champaran</option>
+                        <option value="Gaya">Gaya</option>
+                        <option value="Gopalganj">Gopalganj</option>
+                        <option value="Jamui">Jamui</option>
+                        <option value="Jehanabad">Jehanabad</option>
+                        <option value="Khagaria">Khagaria</option>
+                        <option value="Kishanganj">Kishanganj</option>
+                        <option value="Kaimur">Kaimur</option>
+                        <option value="Katihar">Katihar</option>
+                        <option value="Lakhisarai">Lakhisarai</option>
+                        <option value="Madhubani">Madhubani</option>
+                        <option value="Munger">Munger</option>
+                        <option value="Madhepura">Madhepura</option>
+                        <option value="Muzaffarpur">Muzaffarpur</option>
+                        <option value="Nalanda">Nalanda</option>
+                        <option value="Nawada">Nawada</option>
+                        <option value="Patna">Patna</option>
+                        <option value="Purnia">Purnia</option>
+                        <option value="Rohtas">Rohtas</option>
+                        <option value="Saharsa">Saharsa</option>
+                        <option value="Samastipur">Samastipur</option>
+                        <option value="Sheohar">Sheohar</option>
+                        <option value="Sheikhpura">Sheikhpura</option>
+                        <option value="Saran">Saran</option>
+                        <option value="Sitamarhi">Sitamarhi</option>
+                        <option value="Supaul">Supaul</option>
+                        <option value="Siwan">Siwan</option>
+                        <option value="Vaishali">Vaishali</option>
+                        <option value="West Champaran">West Champaran</option>
+                    </select>
+                    <h3>Caste Category</h3>
+                    <select name="Caste" id="caste" required>
+                        <option value="General">General</option>
+                        <option value="EBC">EBC</option>
+                        <option value="BC">BC</option>
+                        <option value="SC">SC</option>
+                        <option value="ST">ST</option>
+                    </select>
+                    <h3>Religion</h3>
+                    <select name="Religion" id="religion" required>
+                        <option value="">Select Religion</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Sikh">Sikh</option>
+                        <option value="Christian">Christian</option>
+                        <option value="Jain">Jain</option>
+                        <option value="Buddh">Buddh</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <h3>Area</h3>
+                    <select name="Area" id="area" required>
+                        <option value="">Select Area</option>
+                        <option value="Rural">Rural</option>
+                        <option value="Urban">Urban</option>
+                    </select>
+                </div>
+            </div>
+            <div id="container5">
+                <h3>Student E-mail</h3>
+                <input type="email" placeholder="Input your Email" id="email" required>
+                <h3>Student Mobile</h3>
+                <input type="tel" placeholder="Enter your number" id="mobile" required>
+            </div>
+            <div id="co">
+                <h3>Select Your Course</h3>
+                <label>
+                    <input type="checkbox" value="course" id="arts"> Arts
+                </label>
+                <label>
+                    <input type="checkbox" value="course" id="science"> Science
+                </label>
+                <label>
+                    <input type="checkbox" value="course" id="commerce"> Commerce
+                </label>
+            </div>
+            <div id="container7">
+                <button type="submit">Submit Application</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
